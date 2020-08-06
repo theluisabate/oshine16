@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,400;600;700;800&display=swap');
+:root{
+	--color-morado:#5c0bb7;
+	--color-gris:#f6f6f6;
+	--color-gris-claro: #fdfdfd;
+	--color-hover-gris: #efefef;
+	--color-verde:#89be4f;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #444;
+	font-weight: 300;
+	line-height: 1.8 !important;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky{
+	background-color: #fff !important;
+}
+
+.lista-redes a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+	background-color: #ccc;
+	display: block;
+	color: #fff;
+}
+.lista-redes li{
+	padding-right: 10px;
+}
+.lista-redes .facebook{
+	background-color: #3b5998;
+}
+.lista-redes .twitter{
+	background-color: #0c9aca;
+}
+
+
+#intro{
+	background-image: url(../img/iphone-rev-bg.jpg);
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 10%;
+}
+#intro img.iphone{
+	width: 350px;
+	float: right;
+}
+#intro h2{
+	font-size: 35px;
+	font-weight: 300;
+}
+#intro p{
+	font-weight: 300;
+}
+
+#intro a.google{
+	margin-left: -20px;
+}
+
+.section{
+	padding: 10% 0;
+}
+
+.titulo{
+	color: #222;
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 3%;
+}
+.subtitulo{
+	color: #222;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 5%;
+}
+
+#voted{
+	text-align: center;
+}
+
+#voted i{
+	border: 1px solid var(--color-verde);
+	background-color: #fff;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: var(--color-verde);
+	font-size: 24px;
+	border-radius: 100%;
+	transition: all 0.3s ease-in-out;
+}
+#voted i:hover{
+	background-color: var(--color-verde);
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+#voted h4{
+	font-size: 20px;
+	font-weight: 300;
+	margin: 30px 0;
+}
+
+
+
+.app-carousel {
+    padding: 0 6%;
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #222;
+   	border: 2px solid #222 !important;
+}
+
+
+
+#features{
+	background-color: #f8f8f8;
+}
+
+#features i{
+	background-color: var(--color-verde);
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	border-radius: 100%;
+	transition: all 0.3s ease-in-out;
+}
+#features h4{
+	color: #222;
+	font-size: 16px;
+}
+#features article .row{
+	margin-bottom: 15%;
+}
+
+#features.section{
+	padding-bottom: 0;
+}
+
+#features2.section{
+	padding-top: 0;
+}
+
+
+#features2.titulo{
+	text-align: left;
+}
+
+#features2.row{
+	margin-top: 5%;
+}
+
+#features2 ul{
+	list-style: none;
+	padding: 0;
+	margin: 7% 0;
+}
+
+#features2 ul li::before{
+	content: '\f005';
+	font-family:'Font Awesome 5 Free';
+	font-weight: 600;
+	padding-right: 30px;
+    color: var(--color-verde);
+}
+
+.btn{
+   border-radius: 0;
+   padding: 15px 30px;
+    margin-right: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;	
+}
+
+.btn-negro{
+	background-color: #000;
+}
+
+.btn-negro:hover{
+	background-color: var(--color-verde);
+}
+
+.btn-verde{
+	background-color: var(--color-verde);
+}
+
+.btn-verde:hover{
+	background-color: #000;
+}
+
+#video{
+	background-color: rgba(0,0,0,0.80);
+}
+
+
+#video .titulo,
+#video .subtitulo{
+	color: #fff;
+
+}
+
+#video .titulo{
+	font-size: 50px;
+}	
+
+.carousel-shots .active img{
+    opacity: 0.6;
+	transform: scale(0.8);
+}
+
+.carousel-shots .active.center img{
+	opacity: 1;
+	transform: scale(1);
+}
+
+#counter{
+	background-color: var(--color-verde);
+	color: #fff;
+	text-align: center;
+	padding: 3% 0;
+}
+
+#counter h3{
+	font-size: 40px;
+	
+}
+
+#counter p{
+	font-size: 16px; 
+	text-transform: uppercase;
+	font-weight: 400;
+}
